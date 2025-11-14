@@ -1,0 +1,103 @@
+{"level":30,"time":"2021-07-12T18:23:45.706Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Listening on 54928"}
+{"level":30,"time":"2021-07-12T18:23:51.055Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:23:51.074Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:23:55.307Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Video path: undefined"}
+{"level":30,"time":"2021-07-12T18:23:55.307Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:23:59.069Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=span containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2021-07-12T18:23:59.706Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2021-07-12T18:24:01.910Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=.place-info-box containing DEBUGER KING\n 3.5\nHamburgers\n100m"}
+{"level":30,"time":"2021-07-12T18:24:01.930Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:01.931Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:01.931Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:02.006Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:02.006Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:02.006Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:03.319Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:03.414Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:03.967Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Video path: undefined"}
+{"level":30,"time":"2021-07-12T18:24:03.967Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:06.974Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=span containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2021-07-12T18:24:07.117Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2021-07-12T18:24:08.579Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=.place-info-box containing STARBUGS COFFEE\n 4.8\nCafeteria\n30-40m"}
+{"level":30,"time":"2021-07-12T18:24:08.925Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:08.925Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:08.925Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:08.959Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:08.959Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:08.959Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:09.850Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:09.862Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:10.114Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Video path: undefined"}
+{"level":30,"time":"2021-07-12T18:24:10.114Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:12.538Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=span containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2021-07-12T18:24:12.705Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2021-07-12T18:24:12.874Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:12.874Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:12.874Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:12.913Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:12.913Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:12.913Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:13.741Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:13.741Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Trace file: "}
+{"level":30,"time":"2021-07-12T18:24:13.750Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:13.752Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:14.087Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Video path: undefined"}
+{"level":30,"time":"2021-07-12T18:24:14.088Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:22.170Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:22.170Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:22.170Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:22.201Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:22.201Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:22.201Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:23.168Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:23.168Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Trace file: "}
+{"level":30,"time":"2021-07-12T18:24:23.185Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:23.188Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:23.502Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Video path: undefined"}
+{"level":30,"time":"2021-07-12T18:24:23.502Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:27.154Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=.is-danger .message-body containing Opps! Dados de acesso incorretos!"}
+{"level":30,"time":"2021-07-12T18:24:27.595Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:27.595Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:27.595Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:27.633Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:27.633Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:27.633Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:28.714Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:28.714Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Trace file: "}
+{"level":30,"time":"2021-07-12T18:24:28.729Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:28.736Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:29.000Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Video path: undefined"}
+{"level":30,"time":"2021-07-12T18:24:29.000Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:34.595Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=.is-danger .message-body containing Opps! Dados de acesso incorretos!"}
+{"level":30,"time":"2021-07-12T18:24:35.189Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:35.189Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:35.189Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:35.212Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:35.212Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:35.212Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:36.202Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:36.202Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Trace file: "}
+{"level":30,"time":"2021-07-12T18:24:36.228Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:36.232Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:36.492Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Video path: undefined"}
+{"level":30,"time":"2021-07-12T18:24:36.492Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:43.335Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=.is-danger .message-body containing Opps! Dados de acesso incorretos!"}
+{"level":30,"time":"2021-07-12T18:24:43.688Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:43.688Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:43.688Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:43.709Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:43.709Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:43.709Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:44.770Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:44.770Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Trace file: "}
+{"level":30,"time":"2021-07-12T18:24:44.793Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:44.799Z","pid":9416,"hostname":"GCFQANOT-01","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-07-12T18:24:45.096Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Video path: undefined"}
+{"level":30,"time":"2021-07-12T18:24:45.096Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:48.476Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Retrieved text for element css=.is-danger .message-body containing Opps! Dados de acesso incorretos!"}
+{"level":30,"time":"2021-07-12T18:24:48.821Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:48.821Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:48.821Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}
+{"level":30,"time":"2021-07-12T18:24:48.851Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active context"}
+{"level":30,"time":"2021-07-12T18:24:48.851Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changing current active page"}
+{"level":30,"time":"2021-07-12T18:24:48.851Z","pid":9416,"hostname":"GCFQANOT-01","msg":"Changed active page"}

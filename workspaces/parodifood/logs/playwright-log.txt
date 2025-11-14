@@ -1,0 +1,93 @@
+{"level":30,"time":"2021-05-20T20:27:05.044Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Listening on 54583"}
+{"level":30,"time":"2021-05-20T20:27:17.905Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active context"}
+{"level":30,"time":"2021-05-20T20:27:35.646Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Video path: undefined"}
+{"level":30,"time":"2021-05-20T20:27:35.647Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active page"}
+{"level":30,"time":"2021-05-20T20:27:43.298Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=span containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2021-05-20T20:27:48.591Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2021-05-20T20:27:51.310Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:51.364Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:51.416Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:51.481Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:51.594Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:51.646Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:51.699Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:51.746Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:51.794Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:51.842Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:51.891Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:51.934Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:52.058Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:52.114Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:52.167Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:52.217Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:52.861Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:27:54.337Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active context"}
+{"level":30,"time":"2021-05-20T20:27:54.338Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-20T20:27:54.338Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active page"}
+{"level":30,"time":"2021-05-20T20:27:54.381Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active context"}
+{"level":30,"time":"2021-05-20T20:27:54.381Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-20T20:27:54.381Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active page"}
+{"level":30,"time":"2021-05-20T20:28:04.414Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active context"}
+{"level":30,"time":"2021-05-20T20:28:15.150Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Video path: undefined"}
+{"level":30,"time":"2021-05-20T20:28:15.151Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active page"}
+{"level":30,"time":"2021-05-20T20:28:21.327Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=span containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2021-05-20T20:28:26.104Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2021-05-20T20:28:26.782Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:26.848Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:26.889Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:26.966Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:27.042Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:27.121Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:27.220Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:27.294Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:27.341Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:27.424Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:27.476Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:27.545Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:27.598Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:27.652Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:27.697Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
+{"level":30,"time":"2021-05-20T20:28:28.014Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Retrieved text for element css=.place-info-box containing STARBUGS COFFEE\n 4.8\nCafeteria\n30-40m"}
+{"level":30,"time":"2021-05-20T20:28:28.694Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active context"}
+{"level":30,"time":"2021-05-20T20:28:28.694Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-20T20:28:28.694Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active page"}
+{"level":30,"time":"2021-05-20T20:28:28.749Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active context"}
+{"level":30,"time":"2021-05-20T20:28:28.750Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-20T20:28:28.750Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active page"}
+{"level":30,"time":"2021-05-20T20:28:40.155Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active context"}
+{"level":30,"time":"2021-05-20T20:28:49.994Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Video path: undefined"}
+{"level":30,"time":"2021-05-20T20:28:49.995Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active page"}
+================= Original suppressed error =================
+page.goto: Timeout 10000ms exceeded.
+=========================== logs ===========================
+navigating to "http://parodifood.qaninja.academy/", waiting until "load"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.Error
+    at Object.captureStackTrace (c:\program files\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:48:19)
+    at Connection.sendMessageToServer (c:\program files\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\program files\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\program files\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:102:65
+    at Frame._wrapApiCall (c:\program files\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.goto (c:\program files\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:100:21)
+    at c:\program files\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:296:60
+    at Page._attributeToPage (c:\program files\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:231:20)
+    at Page.goto (c:\program files\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:296:21)
+    at Object.<anonymous> (c:\program files\python\python39\lib\site-packages\Browser\wrapper\index.js:70547:49) {
+  name: 'TimeoutError'
+}
+=============================================================
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at Object.exists (c:\program files\python\python39\lib\site-packages\Browser\wrapper\index.js:69910:15)
+    at Object.<anonymous> (c:\program files\python\python39\lib\site-packages\Browser\wrapper\index.js:66030:41)
+    at step (c:\program files\python\python39\lib\site-packages\Browser\wrapper\index.js:65984:23)
+    at Object.next (c:\program files\python\python39\lib\site-packages\Browser\wrapper\index.js:65965:53)
+    at c:\program files\python\python39\lib\site-packages\Browser\wrapper\index.js:65959:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (c:\program files\python\python39\lib\site-packages\Browser\wrapper\index.js:65955:12)
+    at Object.takeScreenshot (c:\program files\python\python39\lib\site-packages\Browser\wrapper\index.js:66011:12)
+    at PlaywrightServer.<anonymous> (c:\program files\python\python39\lib\site-packages\Browser\wrapper\index.js:67608:61)
+    at step (c:\program files\python\python39\lib\site-packages\Browser\wrapper\index.js:67079:23)
+=============================================================
+{"level":30,"time":"2021-05-20T20:29:00.474Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active context"}
+{"level":30,"time":"2021-05-20T20:29:00.508Z","pid":16188,"hostname":"LAPTOP-GMOPHTKN","msg":"Changed active context"}

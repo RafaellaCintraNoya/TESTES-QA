@@ -1,0 +1,10 @@
+
+***Settings ***
+Library     app.py
+
+
+
+***Test Cases ***
+Deve retornar mensagem de boas vindas
+    ${result}=      Welcome     Rafaella
+    Should Be Equal ${result}   Olá Rafaella, bem vinda ao Curso básico de Robot Framework!

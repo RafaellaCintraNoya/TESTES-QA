@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.9.5 on win32)" generated="20230124 22:12:25.969" rpa="false" schemaversion="2">
+<suite id="s1" name="Consulta" source="D:\workspaces\gcfdesktop\entidades\tests\consulta.robot">
+<kw name="Inicia Sessão" type="SETUP">
+<msg timestamp="20230124 22:12:26.213" level="FAIL">No keyword with name 'Inicia Sessão' found.</msg>
+<status status="FAIL" starttime="20230124 22:12:26.213" endtime="20230124 22:12:26.213"/>
+</kw>
+<test id="s1-t1" name="Consultar Portadores">
+<status status="FAIL" starttime="20230124 22:12:26.213" endtime="20230124 22:12:26.214">Parent suite setup failed:
+No keyword with name 'Inicia Sessão' found.</status>
+</test>
+<kw name="Encerrar Sessão" type="TEARDOWN">
+<msg timestamp="20230124 22:12:26.218" level="FAIL">No keyword with name 'Encerrar Sessão' found.</msg>
+<status status="FAIL" starttime="20230124 22:12:26.217" endtime="20230124 22:12:26.218">No keyword with name 'Encerrar Sessão' found.</status>
+</kw>
+<doc>Suite de Consulta GCF</doc>
+<status status="FAIL" starttime="20230124 22:12:25.986" endtime="20230124 22:12:26.218">Suite setup failed:
+No keyword with name 'Inicia Sessão' found.
+
+Also suite teardown failed:
+No keyword with name 'Encerrar Sessão' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Consulta">Consulta</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230124 22:12:26.194" level="ERROR">Error in file 'D:\workspaces\gcfdesktop\entidades\tests\consulta.robot' on line 4: Resource file 'D:\workspaces\gcfdesktop\entidades\tests\resources\base.robot' does not exist.</msg>
+</errors>
+</robot>

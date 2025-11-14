@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-10-27T00:50:24.388806" rpa="false" schemaversion="5">
+<suite id="s1" name="Lanche" source="C:\Users\rafae\TESTES QA\workspaces\lanche\lanche.robot">
+<kw name="Open Browser Session" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-10-27T00:50:28.979623" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\rafae\\TESTES QA\\workspaces\\lanche\\results\\browser\\traces\\temp\\9ca08c9d-cdc0-463b-aa17-897c6aeadbec"}</msg>
+<msg time="2025-10-27T00:50:28.982038" level="FAIL">Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</msg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2025-10-27T00:50:28.978612" elapsed="0.008654">Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</status>
+</kw>
+<kw name="New Page" owner="Browser">
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="NOT RUN" start="2025-10-27T00:50:28.987525" elapsed="0.000159"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<var>${text}</var>
+<arg>css=span</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-10-27T00:50:28.987808" elapsed="0.000082"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${text}</arg>
+<arg>Nunca foi tão engraçado pedir comida</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="NOT RUN" start="2025-10-27T00:50:28.987977" elapsed="0.000096"/>
+</kw>
+<doc>Abre o navegador e verifica a página inicial</doc>
+<status status="FAIL" start="2025-10-27T00:50:28.977100" elapsed="0.011114">Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</status>
+</kw>
+<test id="s1-t1" name="Deve buscar um único restaurante" line="12">
+<status status="FAIL" start="2025-10-27T00:50:28.988316" elapsed="0.001366">Parent suite setup failed:
+Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</status>
+</test>
+<test id="s1-t2" name="Deve buscar por categoria" line="18">
+<status status="FAIL" start="2025-10-27T00:50:28.998861" elapsed="0.000637">Parent suite setup failed:
+Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</status>
+</test>
+<test id="s1-t3" name="Deve buscar todos os restaurantes" line="23">
+<status status="FAIL" start="2025-10-27T00:50:29.004054" elapsed="0.000483">Parent suite setup failed:
+Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</status>
+</test>
+<kw name="Close Browser Session" type="TEARDOWN">
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-10-27T00:50:29.013593" level="FAIL">Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="FAIL" start="2025-10-27T00:50:29.012129" elapsed="0.004162">Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</status>
+</kw>
+<doc>Fecha o navegador no final da suíte</doc>
+<status status="FAIL" start="2025-10-27T00:50:29.011576" elapsed="0.004970">Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</status>
+</kw>
+<status status="FAIL" start="2025-10-27T00:50:24.390470" elapsed="4.626177">Suite setup failed:
+Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+Also suite teardown failed:
+Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Lanche" id="s1" pass="0" fail="3" skip="0">Lanche</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-10-27T00:50:28.995716" level="ERROR">Calling method '_end_test' of listener 'Browser' failed: Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</msg>
+<msg time="2025-10-27T00:50:29.001757" level="ERROR">Calling method '_end_test' of listener 'Browser' failed: Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</msg>
+<msg time="2025-10-27T00:50:29.007248" level="ERROR">Calling method '_end_test' of listener 'Browser' failed: Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</msg>
+<msg time="2025-10-27T00:50:29.021927" level="ERROR">Calling method '_end_suite' of listener 'Browser' failed: Couldn't execute node. Please ensure you have node.js installed and in PATH. See https://nodejs.org/ for instructions. Original error is [WinError 2] O sistema não pode encontrar o arquivo especificado</msg>
+</errors>
+</robot>
