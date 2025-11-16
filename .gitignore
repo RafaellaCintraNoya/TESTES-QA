@@ -1,0 +1,27 @@
+# Logs
+*.log
+*.out
+
+# Resultados de testes
+*.xml
+*.html
+selenium-screenshot-*.png
+output/
+report.html
+
+# Pastas de IDE
+.vscode/
+.idea/
+
+# Python / caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários do Windows
+*.tmp
+*.bak
