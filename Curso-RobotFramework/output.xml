@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.7 on win32)" generated="2025-10-30T11:02:22.819781" rpa="false" schemaversion="5">
+<suite id="s1" name="Voo" source="c:\Users\rafaella.noya\Desktop\CURSO_ROBOT\ModeloEstruturaNova\Suites\Voo\voo.robot">
+<test id="s1-t1" name="TC02 - Reservando passagens internacionais na classe econômica" line="22">
+<kw name="Acessar o site e logar" owner="setup.teardown" type="SETUP">
+<kw name="Dado que eu acesse o php travels" owner="login_page">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-30T11:02:23.169882" level="INFO">Opening browser 'chrome' to base url 'https://www.phptravels.net/'.</msg>
+<arg>${geral.URL}</arg>
+<arg>${geral.Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-10-30T11:02:23.169010" elapsed="5.499083"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-10-30T11:02:28.668635" elapsed="0.121029"/>
+</kw>
+<status status="PASS" start="2025-10-30T11:02:23.168479" elapsed="5.621763"/>
+</kw>
+<kw name="E realize o cadastro" owner="registro_page">
+<kw name="Wait Until Element Is Enabled" owner="SeleniumLibrary">
+<arg>${home.A_Signup}</arg>
+<arg>25</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="PASS" start="2025-10-30T11:02:28.793176" elapsed="0.325145"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-30T11:02:29.119406" level="INFO">Clicking element '//*[@id="navbarSupportedContent"]/div[2]/ul/li[4]/ul/li[2]/a'.</msg>
+<msg time="2025-10-30T11:02:29.318123" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-10-30T11:02:29.318533" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.125)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d904e8e5+80021]
+	GetHandleVerifier [0x0x7ff7d904e940+80112]
+	(No symbol) [0x0x7ff7d8dd0425]
+	(No symbol) [0x0x7ff7d8e29dc3]
+	(No symbol) [0x0x7ff7d8e1b7c8]
+	(No symbol) [0x0x7ff7d8e5122a]
+	(No symbol) [0x0x7ff7d8e1b056]
+	(No symbol) [0x0x7ff7d8e51440]
+	(No symbol) [0x0x7ff7d8e7968a]
+	(No symbol) [0x0x7ff7d8e51003]
+	(No symbol) [0x0x7ff7d8e195d1]
+	(No symbol) [0x0x7ff7d8e1a3f3]
+	GetHandleVerifier [0x0x7ff7d930dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7d9307f3a+2936554]
+	GetHandleVerifier [0x0x7ff7d9328977+3070247]
+	GetHandleVerifier [0x0x7ff7d90683ce+185214]
+	GetHandleVerifier [0x0x7ff7d906fe1f+216527]
+	GetHandleVerifier [0x0x7ff7d9057b24+117460]
+	GetHandleVerifier [0x0x7ff7d9057cdf+117903]
+	GetHandleVerifier [0x0x7ff7d903dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe5ec8e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5fbcc53c+44]
+</msg>
+<arg>${home.A_Signup}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2025-10-30T11:02:29.118696" elapsed="0.215323">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.125)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d904e8e5+80021]
+	GetHandleVerifier [0x0x7ff7d904e940+80112]
+	(No symbol) [0x0x7ff7d8dd0425]
+	(No symbol) [0x0x7ff7d8e29dc3]
+	(No symbol) [0x0x7ff7d8e1b7c8]
+	(No symbol) [0x0x7ff7d8e5122a]
+	(No symbol) [0x0x7ff7d8e1b056]
+	(No symbol) [0x0x7ff7d8e51440]
+	(No symbol) [0x0x7ff7d8e7968a]
+	(No symbol) [0x0x7ff7d8e51003]
+	(No symbol) [0x0x7ff7d8e195d1]
+	(No symbol) [0x0x7ff7d8e1a3f3]
+	GetHandleVerifier [0x0x7ff7d930dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7d9307f3a+2936554]
+	GetHandleVerifier [0x0x7ff7d9328977+3070247]
+	GetHandleVerifier [0x0x7ff7d90683ce+185214]
+	GetHandleVerifier [0x0x7ff7d906fe1f+216527]
+	GetHandleVerifier [0x0x7ff7d9057b24+117460]
+	GetHandleVerifier [0x0x7ff7d9057cdf+117903]
+	GetHandleVerifier [0x0x7ff7d903dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe5ec8e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5fbcc53c+44]
+</status>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${registro.Input_PrimeiroNome}</arg>
+<arg>25</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.334430" elapsed="0.000132"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${registro.Input_PrimeiroNome}</arg>
+<arg>${dados_registro.PrimeiroNome}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.334760" elapsed="0.000104"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${registro.Input_UltimoNome}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.335030" elapsed="0.000092"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${registro.Input_UltimoNome}</arg>
+<arg>${dados_registro.UltimoNome}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.335283" elapsed="0.000090"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${registro.Input_Telefone}</arg>
+<arg>15</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.335553" elapsed="0.000091"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${registro.Input_Telefone}</arg>
+<arg>${dados_registro.Telefone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.335797" elapsed="0.000085"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${registro.Input_Email}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.336036" elapsed="0.000086"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${registro.Input_Email}</arg>
+<arg>${dados_registro.Email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.336272" elapsed="0.000083"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${registro.Input_Senha}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.336509" elapsed="0.000083"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${registro.Input_Senha}</arg>
+<arg>${dados_registro.Senha}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.336740" elapsed="0.000086"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${registro.Button_Cookie}</arg>
+<arg>15</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.336976" elapsed="0.000109"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${registro.Button_Cookie}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.337280" elapsed="0.000094"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${registro.Button_Signup}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.337589" elapsed="0.000146"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.337971" elapsed="0.000129"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<arg>Click Element</arg>
+<arg>${registro.Login.Button_Signup}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.338348" elapsed="0.000109"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${registro.Button_Signup}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-10-30T11:02:29.340485" elapsed="0.000902"/>
+</kw>
+<status status="FAIL" start="2025-10-30T11:02:28.791351" elapsed="0.551348">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.125)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d904e8e5+80021]
+	GetHandleVerifier [0x0x7ff7d904e940+80112]
+	(No symbol) [0x0x7ff7d8dd0425]
+	(No symbol) [0x0x7ff7d8e29dc3]
+	(No symbol) [0x0x7ff7d8e1b7c8]
+	(No symbol) [0x0x7ff7d8e5122a]
+	(No symbol) [0x0x7ff7d8e1b056]
+	(No symbol) [0x0x7ff7d8e51440]
+	(No symbol) [0x0x7ff7d8e7968a]
+	(No symbol) [0x0x7ff7d8e51003]
+	(No symbol) [0x0x7ff7d8e195d1]
+	(No symbol) [0x0x7ff7d8e1a3f3]
+	GetHandleVerifier [0x0x7ff7d930dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7d9307f3a+2936554]
+	GetHandleVerifier [0x0x7ff7d9328977+3070247]
+	GetHandleVerifier [0x0x7ff7d90683ce+185214]
+	GetHandleVerifier [0x0x7ff7d906fe1f+216527]
+	GetHandleVerifier [0x0x7ff7d9057b24+117460]
+	GetHandleVerifier [0x0x7ff7d9057cdf+117903]
+	GetHandleVerifier [0x0x7ff7d903dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe5ec8e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5fbcc53c+44]
+</status>
+</kw>
+<kw name="E faça o Login" owner="login_page">
+<status status="NOT RUN" start="2025-10-30T11:02:29.344491" elapsed="0.000639"/>
+</kw>
+<status status="FAIL" start="2025-10-30T11:02:23.167893" elapsed="6.177730">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.125)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d904e8e5+80021]
+	GetHandleVerifier [0x0x7ff7d904e940+80112]
+	(No symbol) [0x0x7ff7d8dd0425]
+	(No symbol) [0x0x7ff7d8e29dc3]
+	(No symbol) [0x0x7ff7d8e1b7c8]
+	(No symbol) [0x0x7ff7d8e5122a]
+	(No symbol) [0x0x7ff7d8e1b056]
+	(No symbol) [0x0x7ff7d8e51440]
+	(No symbol) [0x0x7ff7d8e7968a]
+	(No symbol) [0x0x7ff7d8e51003]
+	(No symbol) [0x0x7ff7d8e195d1]
+	(No symbol) [0x0x7ff7d8e1a3f3]
+	GetHandleVerifier [0x0x7ff7d930dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7d9307f3a+2936554]
+	GetHandleVerifier [0x0x7ff7d9328977+3070247]
+	GetHandleVerifier [0x0x7ff7d90683ce+185214]
+	GetHandleVerifier [0x0x7ff7d906fe1f+216527]
+	GetHandleVerifier [0x0x7ff7d9057b24+117460]
+	GetHandleVerifier [0x0x7ff7d9057cdf+117903]
+	GetHandleVerifier [0x0x7ff7d903dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe5ec8e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5fbcc53c+44]
+</status>
+</kw>
+<kw name="Fechar Navegador" owner="setup.teardown" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-30T11:02:29.348045" elapsed="2.950973"/>
+</kw>
+<status status="PASS" start="2025-10-30T11:02:29.347005" elapsed="2.952248"/>
+</kw>
+<tag>TC02</tag>
+<tag>VOO</tag>
+<status status="FAIL" start="2025-10-30T11:02:23.166795" elapsed="9.133151">Setup failed:
+ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.125)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d904e8e5+80021]
+	GetHandleVerifier [0x0x7ff7d904e940+80112]
+	(No symbol) [0x0x7ff7d8dd0425]
+	(No symbol) [0x0x7ff7d8e29dc3]
+	(No symbol) [0x0x7ff7d8e1b7c8]
+	(No symbol) [0x0x7ff7d8e5122a]
+	(No symbol) [0x0x7ff7d8e1b056]
+	(No symbol) [0x0x7ff7d8e51440]
+	(No symbol) [0x0x7ff7d8e7968a]
+	(No symbol) [0x0x7ff7d8e51003]
+	(No symbol) [0x0x7ff7d8e195d1]
+	(No symbol) [0x0x7ff7d8e1a3f3]
+	GetHandleVerifier [0x0x7ff7d930dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7d9307f3a+2936554]
+	GetHandleVerifier [0x0x7ff7d9328977+3070247]
+	GetHandleVerifier [0x0x7ff7d90683ce+185214]
+	GetHandleVerifier [0x0x7ff7d906fe1f+216527]
+	GetHandleVerifier [0x0x7ff7d9057b24+117460]
+	GetHandleVerifier [0x0x7ff7d9057cdf+117903]
+	GetHandleVerifier [0x0x7ff7d903dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe5ec8e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5fbcc53c+44]
+</status>
+</test>
+<status status="FAIL" start="2025-10-30T11:02:22.836381" elapsed="9.466626"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">TC02</stat>
+<stat pass="0" fail="1" skip="0">VOO</stat>
+</tag>
+<suite>
+<stat name="Voo" id="s1" pass="0" fail="1" skip="0">Voo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.7 on win32)" generated="2025-10-27T09:07:48.036587" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\rafaella.noya\Desktop\CURSO_ROBOT\TUTORIALROBOT\Tests">
+<suite id="s1-s1" name="Bdd" source="C:\Users\rafaella.noya\Desktop\CURSO_ROBOT\TUTORIALROBOT\Tests\bdd.robot">
+<test id="s1-s1-t1" name="Cenário 1: Executar Vídeo no site do youtube" line="42">
+<kw name="Dado que eu acesso o site do youtube">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-27T09:07:48.292884" level="INFO">Opening browser 'chrome' to base url 'https://www.youtube.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-10-27T09:07:48.292706" elapsed="4.019044"/>
+</kw>
+<status status="PASS" start="2025-10-27T09:07:48.292258" elapsed="4.019675"/>
+</kw>
+<kw name="Quando digito o nome da música">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-10-27T09:07:52.313884" level="INFO">Typing text 'Ariana Grande Positions' into text field '//*[@id="center"]/yt-searchbox/div[1]/form/input'.</msg>
+<arg>${Input_Pesquisa}</arg>
+<arg>${NomeDaMusica}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-27T09:07:52.313302" elapsed="0.547522"/>
+</kw>
+<status status="PASS" start="2025-10-27T09:07:52.312679" elapsed="0.548371"/>
+</kw>
+<kw name="E clico no botão buscar">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-27T09:07:52.862338" level="INFO">Clicking element '//*[@id="center"]/yt-searchbox/button'.</msg>
+<arg>${Button_Pesquisa}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-27T09:07:52.861949" elapsed="0.288192"/>
+</kw>
+<status status="PASS" start="2025-10-27T09:07:52.861547" elapsed="0.288943"/>
+</kw>
+<kw name="E clico na primeira opção da lista">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${Primeiro}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-10-27T09:07:53.151970" elapsed="1.441085"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-10-27T09:07:54.593545" level="INFO">Clicking element '(//*[@id="video-title"]/yt-formatted-string)[1]'.</msg>
+<arg>${Primeiro}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-10-27T09:07:54.593264" elapsed="0.288334"/>
+</kw>
+<status status="PASS" start="2025-10-27T09:07:53.151384" elapsed="1.730446"/>
+</kw>
+<kw name="Então o vídeo é executado">
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<msg time="2025-10-27T09:07:55.235229" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-8.png"&gt;&lt;img src="selenium-screenshot-8.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-10-27T09:07:55.235831" level="FAIL">ElementNotInteractableException: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7fef1e8e5+80021]
+	GetHandleVerifier [0x0x7ff7fef1e940+80112]
+	(No symbol) [0x0x7ff7feca060f]
+	(No symbol) [0x0x7ff7feca816a]
+	(No symbol) [0x0x7ff7fecab26f]
+	(No symbol) [0x0x7ff7fecab32f]
+	(No symbol) [0x0x7ff7fecffdd4]
+	(No symbol) [0x0x7ff7fecfeffb]
+	(No symbol) [0x0x7ff7fed54054]
+	(No symbol) [0x0x7ff7fed2122a]
+	(No symbol) [0x0x7ff7fed4968a]
+	(No symbol) [0x0x7ff7fed21003]
+	(No symbol) [0x0x7ff7fece95d1]
+	(No symbol) [0x0x7ff7fecea3f3]
+	GetHandleVerifier [0x0x7ff7ff1ddc7d+2960429]
+	GetHandleVerifier [0x0x7ff7ff1d7f3a+2936554]
+	GetHandleVerifier [0x0x7ff7ff1f8977+3070247]
+	GetHandleVerifier [0x0x7ff7fef383ce+185214]
+	GetHandleVerifier [0x0x7ff7fef3fe1f+216527]
+	GetHandleVerifier [0x0x7ff7fef27b24+117460]
+	GetHandleVerifier [0x0x7ff7fef27cdf+117903]
+	GetHandleVerifier [0x0x7ff7fef0dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe5ec8e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5fbcc53c+44]
+</msg>
+<arg>${Provas}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="FAIL" start="2025-10-27T09:07:54.883897" elapsed="0.362258">ElementNotInteractableException: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7fef1e8e5+80021]
+	GetHandleVerifier [0x0x7ff7fef1e940+80112]
+	(No symbol) [0x0x7ff7feca060f]
+	(No symbol) [0x0x7ff7feca816a]
+	(No symbol) [0x0x7ff7fecab26f]
+	(No symbol) [0x0x7ff7fecab32f]
+	(No symbol) [0x0x7ff7fecffdd4]
+	(No symbol) [0x0x7ff7fecfeffb]
+	(No symbol) [0x0x7ff7fed54054]
+	(No symbol) [0x0x7ff7fed2122a]
+	(No symbol) [0x0x7ff7fed4968a]
+	(No symbol) [0x0x7ff7fed21003]
+	(No symbol) [0x0x7ff7fece95d1]
+	(No symbol) [0x0x7ff7fecea3f3]
+	GetHandleVerifier [0x0x7ff7ff1ddc7d+2960429]
+	GetHandleVerifier [0x0x7ff7ff1d7f3a+2936554]
+	GetHandleVerifier [0x0x7ff7ff1f8977+3070247]
+	GetHandleVerifier [0x0x7ff7fef383ce+185214]
+	GetHandleVerifier [0x0x7ff7fef3fe1f+216527]
+	GetHandleVerifier [0x0x7ff7fef27b24+117460]
+	GetHandleVerifier [0x0x7ff7fef27cdf+117903]
+	GetHandleVerifier [0x0x7ff7fef0dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe5ec8e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5fbcc53c+44]
+</status>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${Provas}</arg>
+<arg>20s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-10-27T09:07:55.246467" elapsed="0.000060"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" owner="SeleniumLibrary">
+<arg>${Provas}</arg>
+<arg>20s</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="NOT RUN" start="2025-10-27T09:07:55.246687" elapsed="0.000050"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${Provas}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-10-27T09:07:55.246910" elapsed="0.000048"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-10-27T09:07:55.247112" elapsed="0.000045"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2025-10-27T09:07:55.247297" elapsed="0.000042"/>
+</kw>
+<status status="FAIL" start="2025-10-27T09:07:54.882492" elapsed="0.365109">ElementNotInteractableException: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7fef1e8e5+80021]
+	GetHandleVerifier [0x0x7ff7fef1e940+80112]
+	(No symbol) [0x0x7ff7feca060f]
+	(No symbol) [0x0x7ff7feca816a]
+	(No symbol) [0x0x7ff7fecab26f]
+	(No symbol) [0x0x7ff7fecab32f]
+	(No symbol) [0x0x7ff7fecffdd4]
+	(No symbol) [0x0x7ff7fecfeffb]
+	(No symbol) [0x0x7ff7fed54054]
+	(No symbol) [0x0x7ff7fed2122a]
+	(No symbol) [0x0x7ff7fed4968a]
+	(No symbol) [0x0x7ff7fed21003]
+	(No symbol) [0x0x7ff7fece95d1]
+	(No symbol) [0x0x7ff7fecea3f3]
+	GetHandleVerifier [0x0x7ff7ff1ddc7d+2960429]
+	GetHandleVerifier [0x0x7ff7ff1d7f3a+2936554]
+	GetHandleVerifier [0x0x7ff7ff1f8977+3070247]
+	GetHandleVerifier [0x0x7ff7fef383ce+185214]
+	GetHandleVerifier [0x0x7ff7fef3fe1f+216527]
+	GetHandleVerifier [0x0x7ff7fef27b24+117460]
+	GetHandleVerifier [0x0x7ff7fef27cdf+117903]
+	GetHandleVerifier [0x0x7ff7fef0dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe5ec8e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5fbcc53c+44]
+</status>
+</kw>
+<tag>regressivo</tag>
+<status status="FAIL" start="2025-10-27T09:07:48.291517" elapsed="6.956928">ElementNotInteractableException: Message: element not interactable: [object HTMLButtonElement] has no size and location
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7fef1e8e5+80021]
+	GetHandleVerifier [0x0x7ff7fef1e940+80112]
+	(No symbol) [0x0x7ff7feca060f]
+	(No symbol) [0x0x7ff7feca816a]
+	(No symbol) [0x0x7ff7fecab26f]
+	(No symbol) [0x0x7ff7fecab32f]
+	(No symbol) [0x0x7ff7fecffdd4]
+	(No symbol) [0x0x7ff7fecfeffb]
+	(No symbol) [0x0x7ff7fed54054]
+	(No symbol) [0x0x7ff7fed2122a]
+	(No symbol) [0x0x7ff7fed4968a]
+	(No symbol) [0x0x7ff7fed21003]
+	(No symbol) [0x0x7ff7fece95d1]
+	(No symbol) [0x0x7ff7fecea3f3]
+	GetHandleVerifier [0x0x7ff7ff1ddc7d+2960429]
+	GetHandleVerifier [0x0x7ff7ff1d7f3a+2936554]
+	GetHandleVerifier [0x0x7ff7ff1f8977+3070247]
+	GetHandleVerifier [0x0x7ff7fef383ce+185214]
+	GetHandleVerifier [0x0x7ff7fef3fe1f+216527]
+	GetHandleVerifier [0x0x7ff7fef27b24+117460]
+	GetHandleVerifier [0x0x7ff7fef27cdf+117903]
+	GetHandleVerifier [0x0x7ff7fef0dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe5ec8e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5fbcc53c+44]
+</status>
+</test>
+<status status="FAIL" start="2025-10-27T09:07:48.059763" elapsed="7.192654"/>
+</suite>
+<suite id="s1-s2" name="Estrutura" source="C:\Users\rafaella.noya\Desktop\CURSO_ROBOT\TUTORIALROBOT\Tests\estrutura.robot">
+<test id="s1-s2-t1" name="Cenário 1: Teste de abrir site google" line="20">
+<kw name="Abrir site do google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-27T09:07:55.261184" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-10-27T09:07:55.259971" elapsed="3.481400"/>
+</kw>
+<status status="PASS" start="2025-10-27T09:07:55.259460" elapsed="3.482068"/>
+</kw>
+<kw name="Fechar navegador">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-27T09:07:58.742327" elapsed="2.542418"/>
+</kw>
+<status status="PASS" start="2025-10-27T09:07:58.741891" elapsed="2.543045"/>
+</kw>
+<tag>regressivo</tag>
+<status status="PASS" start="2025-10-27T09:07:55.258774" elapsed="6.027086"/>
+</test>
+<status status="PASS" start="2025-10-27T09:07:55.253988" elapsed="6.035244"/>
+</suite>
+<status status="FAIL" start="2025-10-27T09:07:48.038545" elapsed="13.252654"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="1" skip="0">regressivo</stat>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="1" fail="1" skip="0">Tests</stat>
+<stat name="Bdd" id="s1-s1" pass="0" fail="1" skip="0">Tests.Bdd</stat>
+<stat name="Estrutura" id="s1-s2" pass="1" fail="0" skip="0">Tests.Estrutura</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
